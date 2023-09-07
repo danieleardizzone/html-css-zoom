@@ -1,0 +1,46 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-family: 'DM Sans', sans-serif;
+}
+
+img{
+    max-width: 100%;
+
+}
+
+.main-content {
+	height:100vh;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    min-height: 200px;
+    flex-basis: calc(100%/7);
+}
+
+
+
+
+
+
+
+
+.app_toolbar {
+	padding: 20px;
+}
+
+.debug.card{
+    border: 2px solid red;
+    padding: 20px;
+}
